@@ -22,6 +22,6 @@ console.log( _delew.parseColor(e.style.backgroundColor) );
 ```
 
 ### additional functions
-`_delew.formatRgbColor(r, g, b, a)` => return a formated CSS declaration string : **rgb[a](r, g, b[, a])**
+`_delew.formatRgbColor(r, g, b, a)` => return a formated CSS declaration string : `'rgb[a](r, g, b[, a])'`
 
 `_delew.support.rgba()` => check if your browser support alpha channel declaration
